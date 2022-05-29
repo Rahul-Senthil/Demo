@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.navbar {
+  background-color: #e8e8e8;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:hover {
+  color: rgb(236, 89, 138);
+}
+
+.hamburger {
+  border: none;
+  outline: none;
+  color: rgb(236, 89, 138);
+}

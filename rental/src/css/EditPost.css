@@ -1,0 +1,53 @@
+.edit-form-page {
+  background-color: #e8e8e8;
+  /* height: 1200px; */
+}
+
+.edit-form-page h1 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  transform: translateY(40px);
+  color: rgb(236, 89, 138);
+}
+
+.edit-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-post-form {
+  width: 400px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  box-shadow: 4px 8px 10px rgb(236, 89, 138);
+  border-left: 0.5px solid rgb(236, 89, 138);
+  margin-bottom: 50px;
+}
+
+.edit-post-form input {
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #e8e8e8;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.del-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.del-img input {
+  width: 20px;
+}

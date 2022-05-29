@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.form-page {
+  background-color: #e8e8e8;
+  height: 690px;
+}
+
+.form-page h1 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  transform: translateY(40px);
+  color: rgb(236, 89, 138);
+}
+
+.form-page h6 {
+  margin-top: 30px;
+}
+
+.form-page h6 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-form {
+  display: flex;
+  width: 400px;
+  height: 450px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  box-shadow: 4px 8px 10px rgb(236, 89, 138);
+  border-left: 0.5px solid rgb(236, 89, 138);
+}
+
+.post-form input {
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #e8e8e8;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+#uploadfile {
+  display: none;
+  position: absolute;
+  /* transform: translateX(-20px); */
+}
+
+.upload-label {
+  cursor: pointer;
+}
+
+.post-form select {
+  width: 350px;
+  background-color: #e8e8e8;
+  outline: none;
+  font-weight: bold;
+}

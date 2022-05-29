@@ -1,0 +1,83 @@
+.login-page {
+  background-color: #e8e8e8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 690px;
+}
+
+.login-page h1 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  transform: translateY(40px);
+  color: rgb(236, 89, 138);
+}
+
+.login-form {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  box-shadow: 4px 8px 10px rgb(236, 89, 138);
+  border-left: 0.5px solid rgb(236, 89, 138);
+}
+
+.login-form input {
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #e8e8e8;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.login-form button {
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 8px;
+  outline: none;
+  font-weight: bold;
+}
+
+.register-form {
+  display: flex;
+  width: 400px;
+  height: 380px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  box-shadow: 4px 8px 10px rgb(236, 89, 138);
+  border-left: 0.5px solid rgb(236, 89, 138);
+}
+
+.register-form input {
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #e8e8e8;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.register-form button {
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 8px;
+  outline: none;
+  font-weight: bold;
+}

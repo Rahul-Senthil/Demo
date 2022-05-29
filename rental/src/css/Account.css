@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+.account-container {
+  background-color: #e8e8e8;
+  padding-left: 50px;
+}
+
+.account-container h1 {
+  color: rgb(236, 89, 138);
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.account-container h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.account-container h3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.account-details {
+  margin-top: 30px;
+}
+
+.account-details h1 {
+  color: rgb(236, 89, 138);
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.display-post {
+  padding: 0;
+  width: 600px;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.mypost {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.account-carousel-item {
+  height: 400px;
+}
+
+.carousel-img {
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}

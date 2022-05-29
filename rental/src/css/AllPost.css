@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.allpost {
+  background-color: #e8e8e8;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.filter {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(236, 89, 138);
+  color: black;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+  outline: none;
+}
+
+.search-bar {
+  width: 300px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-btn {
+  /* width: 80px;
+  height: 40px; */
+  /* background-color: rgb(236, 89, 138); */
+  color: black;
+  /* font-family: "Poppins", sans-serif; */
+  /* border-radius: 8px; */
+  font-size: large;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.post-container {
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+
+.post-container h1 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: rgb(236, 89, 138);
+}
+
+.posts {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.each-post {
+  padding: 0;
+  width: 480px;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.card-body span {
+  color: rgb(236, 89, 138);
+}
+
+.details-btn {
+  background-color: rgb(236, 89, 138);
+  color: black;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
