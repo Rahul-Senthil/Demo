@@ -176,10 +176,12 @@ app.post("/delete-img-cloudinary", async (req, res) => {
   }
 });
 
+app.use(express.static(path.join(__dirname, "../rental/build")))
+
 //Server production
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join("rental/build")));
-  app.get("*", (req, res) => res.sendFile(path.resolve(__dirname, "rental", "build", "index.html" )));
-}
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static(path.join("rental/build")));
+//   app.get("*", (req, res) => res.sendFile(path.resolve(__dirname, "rental", "build", "index.html" )));
+// }
 
 app.listen(port, () => console.log(`Server running at ${port}`));
